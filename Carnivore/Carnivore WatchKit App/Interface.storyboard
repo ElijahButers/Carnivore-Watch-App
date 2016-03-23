@@ -10,12 +10,13 @@
             <objects>
                 <controller identifier="InitialController" title="Carnivore" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Carnivore_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <group width="1" alignment="left" id="x0v-jU-ghg">
+                        <group width="1" alignment="left" layout="vertical" id="x0v-jU-ghg">
                             <items>
                                 <timer alignment="center" textAlignment="center" id="pFX-di-zrx">
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                     <calendarUnit key="units" minute="YES" second="YES"/>
                                 </timer>
+                                <button width="1" alignment="left" title="Start Timer" id="TFP-Rj-2gn"/>
                             </items>
                         </group>
                     </items>
