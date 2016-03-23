@@ -16,7 +16,11 @@
                                     <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
                                     <calendarUnit key="units" minute="YES" second="YES"/>
                                 </timer>
-                                <button width="1" alignment="left" title="Start Timer" id="TFP-Rj-2gn"/>
+                                <button width="1" alignment="left" title="Start Timer" id="TFP-Rj-2gn">
+                                    <connections>
+                                        <action selector="onTimerButton" destination="AgC-eL-Hgc" id="3Xh-1Y-O04"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" layout="vertical" id="089-vS-qn9">
@@ -26,6 +30,9 @@
                             </items>
                         </group>
                     </items>
+                    <connections>
+                        <outlet property="timer" destination="pFX-di-zrx" id="Ftu-Wm-yup"/>
+                    </connections>
                 </controller>
             </objects>
         </scene>

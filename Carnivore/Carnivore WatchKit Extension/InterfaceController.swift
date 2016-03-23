@@ -25,9 +25,13 @@ import Foundation
 
 class InterfaceController: WKInterfaceController {
 
+    @IBOutlet var timer: WKInterfaceTimer!
+    
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
   }
 
+    @IBAction func onTimerButton() {
+    }
 }
