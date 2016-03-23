@@ -8,7 +8,7 @@
         <!--Carnivore-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller identifier="InitialController" title="Carnivore" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Carnivore_WatchKit_App" customModuleProvider="target">
+                <controller identifier="InitialController" title="Carnivore" spacing="10" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Carnivore_WatchKit_App" customModuleProvider="target">
                     <items>
                         <group width="1" alignment="left" layout="vertical" id="x0v-jU-ghg">
                             <items>
@@ -24,9 +24,10 @@
                             </items>
                         </group>
                         <label alignment="center" text="Weight: 16 oz" id="RlI-Yr-Sms"/>
-                        <group width="1" alignment="left" id="dWf-Op-msa">
+                        <group width="1" alignment="left" spacing="20" id="dWf-Op-msa">
                             <items>
                                 <button alignment="center" backgroundImage="minus" id="2rB-JD-JK5"/>
+                                <button alignment="center" backgroundImage="plus" id="oKe-hC-Fw3"/>
                             </items>
                         </group>
                         <group width="1" alignment="left" layout="vertical" id="089-vS-qn9">
