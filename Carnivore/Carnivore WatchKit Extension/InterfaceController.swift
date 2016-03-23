@@ -33,5 +33,11 @@ class InterfaceController: WKInterfaceController {
   }
 
     @IBAction func onTimerButton() {
+        
+        let countdown: NSTimeInterval = 20
+        let date = NSDate(timeIntervalSinceNow: countdown)
+        
+        timer.setDate(date)
+        timer.start()
     }
 }
