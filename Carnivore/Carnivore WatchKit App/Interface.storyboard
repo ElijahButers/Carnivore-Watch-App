@@ -23,6 +23,7 @@
                                 </button>
                             </items>
                         </group>
+                        <label alignment="center" text="Weight: 16 oz" id="RlI-Yr-Sms"/>
                         <group width="1" alignment="left" layout="vertical" id="089-vS-qn9">
                             <items>
                                 <label alignment="center" text="Label" textAlignment="center" id="qCg-Aa-Epe"/>
