@@ -30,6 +30,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var cookLabel: WKInterfaceLabel!
     
     var ounces = 16
+    var cookTemp = MeatTemperature.Medium
     
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
