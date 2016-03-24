@@ -52,6 +52,7 @@
                     <connections>
                         <outlet property="cookLabel" destination="qCg-Aa-Epe" id="jDi-9p-cAn"/>
                         <outlet property="timer" destination="pFX-di-zrx" id="Ftu-Wm-yup"/>
+                        <outlet property="timerButton" destination="TFP-Rj-2gn" id="dQC-mQ-qOc"/>
                         <outlet property="weightLabel" destination="RlI-Yr-Sms" id="ghn-9V-FzV"/>
                     </connections>
                 </controller>

@@ -28,6 +28,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var timer: WKInterfaceTimer!
     @IBOutlet var weightLabel: WKInterfaceLabel!
     @IBOutlet var cookLabel: WKInterfaceLabel!
+    @IBOutlet var timerButton: WKInterfaceButton!
     
     var ounces = 16
     var cookTemp = MeatTemperature.Medium
@@ -49,12 +50,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBAction func onTimerButton() {
         
-        let countdown: NSTimeInterval = 20
-        let date = NSDate(timeIntervalSinceNow: countdown)
-        
-        timer.setDate(date)
-        timer.start()
-    }
+}
     
     @IBAction func onMinusButton() {
         
