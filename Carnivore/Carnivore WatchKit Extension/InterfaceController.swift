@@ -28,6 +28,8 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet var timer: WKInterfaceTimer!
     @IBOutlet var weightLabel: WKInterfaceLabel!
     
+    var ounces = 16
+    
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
     
