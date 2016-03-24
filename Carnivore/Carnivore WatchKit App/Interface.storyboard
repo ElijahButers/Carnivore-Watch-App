@@ -26,8 +26,16 @@
                         <label alignment="center" text="Weight: 16 oz" id="RlI-Yr-Sms"/>
                         <group width="1" alignment="left" spacing="20" id="dWf-Op-msa">
                             <items>
-                                <button alignment="center" backgroundImage="minus" id="2rB-JD-JK5"/>
-                                <button alignment="center" backgroundImage="plus" id="oKe-hC-Fw3"/>
+                                <button alignment="center" backgroundImage="minus" id="2rB-JD-JK5">
+                                    <connections>
+                                        <action selector="onMinusButton" destination="AgC-eL-Hgc" id="mCL-aS-l62"/>
+                                    </connections>
+                                </button>
+                                <button alignment="center" backgroundImage="plus" id="oKe-hC-Fw3">
+                                    <connections>
+                                        <action selector="onPlusButton" destination="AgC-eL-Hgc" id="PnB-MF-rbn"/>
+                                    </connections>
+                                </button>
                             </items>
                         </group>
                         <group width="1" alignment="left" layout="vertical" id="089-vS-qn9">
@@ -39,6 +47,7 @@
                     </items>
                     <connections>
                         <outlet property="timer" destination="pFX-di-zrx" id="Ftu-Wm-yup"/>
+                        <outlet property="weightLabel" destination="RlI-Yr-Sms" id="ghn-9V-FzV"/>
                     </connections>
                 </controller>
             </objects>

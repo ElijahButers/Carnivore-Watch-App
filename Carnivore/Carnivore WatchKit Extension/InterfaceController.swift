@@ -26,6 +26,7 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     @IBOutlet var timer: WKInterfaceTimer!
+    @IBOutlet var weightLabel: WKInterfaceLabel!
     
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
@@ -39,5 +40,11 @@ class InterfaceController: WKInterfaceController {
         
         timer.setDate(date)
         timer.start()
+    }
+    
+    @IBAction func onMinusButton() {
+    }
+    
+    @IBAction func onPlusButton() {
     }
 }
