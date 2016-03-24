@@ -42,6 +42,8 @@ class InterfaceController: WKInterfaceController {
     func updateConfiguration() {
         
         weightLabel.setText("Weight: \(ounces) oz")
+        
+        cookLabel.setText(cookTemp.stringValue)
     }
 
     @IBAction func onTimerButton() {
