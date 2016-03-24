@@ -50,8 +50,14 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func onMinusButton() {
+        
+        ounces--
+        updateConfiguration()
     }
     
     @IBAction func onPlusButton() {
+        
+        ounces++
+        updateConfiguration()
     }
 }
