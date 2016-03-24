@@ -27,6 +27,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet var timer: WKInterfaceTimer!
     @IBOutlet var weightLabel: WKInterfaceLabel!
+    @IBOutlet var cookLabel: WKInterfaceLabel!
     
     var ounces = 16
     
@@ -62,4 +63,10 @@ class InterfaceController: WKInterfaceController {
         ounces++
         updateConfiguration()
     }
+    
+    @IBAction func onTempChange(value: Float) {
+        
+        
+    }
+    
 }

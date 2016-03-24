@@ -41,11 +41,16 @@
                         <group width="1" alignment="left" layout="vertical" id="089-vS-qn9">
                             <items>
                                 <label alignment="center" text="Label" textAlignment="center" id="qCg-Aa-Epe"/>
-                                <slider width="1" alignment="left" value="2" maximum="3" steps="3" id="fA9-n7-BTR"/>
+                                <slider width="1" alignment="left" value="2" maximum="3" steps="3" id="fA9-n7-BTR">
+                                    <connections>
+                                        <action selector="onTempChange:" destination="AgC-eL-Hgc" id="FHI-kF-jdh"/>
+                                    </connections>
+                                </slider>
                             </items>
                         </group>
                     </items>
                     <connections>
+                        <outlet property="cookLabel" destination="qCg-Aa-Epe" id="jDi-9p-cAn"/>
                         <outlet property="timer" destination="pFX-di-zrx" id="Ftu-Wm-yup"/>
                         <outlet property="weightLabel" destination="RlI-Yr-Sms" id="ghn-9V-FzV"/>
                     </connections>
