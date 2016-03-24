@@ -67,7 +67,10 @@ class InterfaceController: WKInterfaceController {
     
     @IBAction func onTempChange(value: Float) {
         
-        
+        if let temp = MeatTemperature(rawValue: Int(value)) {
+            cookTemp = temp
+            updateConfiguration()
+        }
     }
     
 }
