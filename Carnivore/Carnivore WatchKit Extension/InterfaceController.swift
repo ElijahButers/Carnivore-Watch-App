@@ -34,6 +34,11 @@ class InterfaceController: WKInterfaceController {
     super.awakeWithContext(context)
     
   }
+    
+    func updateConfiguration() {
+        
+        weightLabel.setText("Weight: \(ounces) oz")
+    }
 
     @IBAction func onTimerButton() {
         
