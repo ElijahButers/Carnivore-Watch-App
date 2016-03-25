@@ -86,5 +86,8 @@ class InterfaceController: WKInterfaceController {
     }
     
     @IBAction func onMetricChanged(value: Bool) {
+        
+        usingMetric = value
+        updateConfiguration()
     }
 }
