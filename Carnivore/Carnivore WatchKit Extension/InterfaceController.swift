@@ -33,6 +33,7 @@ class InterfaceController: WKInterfaceController {
     var ounces = 16
     var cookTemp = MeatTemperature.Medium
     var timerRunning = false
+    var usingMetric = false
     
   override func awakeWithContext(context: AnyObject?) {
     super.awakeWithContext(context)
