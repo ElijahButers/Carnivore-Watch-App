@@ -48,6 +48,7 @@
                                 </slider>
                             </items>
                         </group>
+                        <group width="1" alignment="left" id="cRP-mv-g3b"/>
                     </items>
                     <connections>
                         <outlet property="cookLabel" destination="qCg-Aa-Epe" id="jDi-9p-cAn"/>
