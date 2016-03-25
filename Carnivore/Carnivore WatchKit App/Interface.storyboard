@@ -48,7 +48,15 @@
                                 </slider>
                             </items>
                         </group>
-                        <group width="1" alignment="left" id="cRP-mv-g3b"/>
+                        <group width="1" alignment="left" id="cRP-mv-g3b">
+                            <items>
+                                <switch width="1" alignment="left" title="Metric" id="9mZ-HU-sbP">
+                                    <connections>
+                                        <action selector="onMetricChanged:" destination="AgC-eL-Hgc" id="c9B-SB-qNn"/>
+                                    </connections>
+                                </switch>
+                            </items>
+                        </group>
                     </items>
                     <connections>
                         <outlet property="cookLabel" destination="qCg-Aa-Epe" id="jDi-9p-cAn"/>
