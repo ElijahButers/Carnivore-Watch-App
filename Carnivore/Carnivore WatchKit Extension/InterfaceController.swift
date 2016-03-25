@@ -49,7 +49,19 @@ class InterfaceController: WKInterfaceController {
     }
 
     @IBAction func onTimerButton() {
+       
+        if timerRunning {
+            timer.stop()
+            timerButton.setTitle("Start Timer")
+        } else {
+            
+            let time = cookTemp.cookTimeForOunces(ounces)
+            timer.setDate(NSDate(timeIntervalSinceNow: time))
+            timer.start()
+            timerButton.setTitle("Stop Timer")
+        }
         
+        timerRunning = !timerRunning
 }
     
     @IBAction func onMinusButton() {
